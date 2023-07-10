@@ -53,5 +53,6 @@ int main() {
     print_info_angle_4(parallelogram);
     print_info_angle_4(rhombus);
 
+    system("pause");
     return 0;
 }

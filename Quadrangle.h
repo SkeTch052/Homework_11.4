@@ -1,10 +1,5 @@
 #pragma once
 #include "Figure.h"
-#ifdef DYNLIBFIGURES_EXPORTS
-#define DYNLIBFIGURES_API __declspec(dllexport)
-#else
-#define DYNLIBFIGURES_API __declspec(dllimport)
-#endif
 namespace Figures_ns
 {
     class Quadrangle : public Figure {

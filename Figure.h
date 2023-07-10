@@ -1,10 +1,6 @@
 #pragma once
 #include <string>
-#ifdef DYNLIBFIGURES_EXPORTS
-#define DYNLIBFIGURES_API __declspec(dllexport)
-#else
-#define DYNLIBFIGURES_API __declspec(dllimport)
-#endif
+#include "Macros.h"
 namespace Figures_ns
 {
     class Figure {
